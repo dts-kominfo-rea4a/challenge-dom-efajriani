@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Challenge - DOM</title>
   </head>
   <body>
@@ -11,7 +12,7 @@
       <!-- TODO: Buatlah sebuah header dengan id todo-title -->
       <h1 id="todo-title">TO-DO LIST</h1>
       <!-- TODO: Buatlah sebuah subtitle dengan id todo-subtitle -->
-      <h3 id="todo-subtitle">-Today I need to ... -</h3>
+      <h3 id="todo-subtitle">-Today I need to -</h3>
 
       <!-- Section: input -->
       <!-- TODO: Buatlah sebuah input bertipe text dengan id todo-input -->
@@ -41,7 +42,7 @@
         li.innerHTML = task;
         li.classList.add('todo-list');
         output.appendChild(li);
-        task;
+        input.value = '';
       }
 
       // TODO: register event onclick / addEventListener untuk button
